@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1.random-meal {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0;
+    color: #d9534f;
+}
+
+button.meal-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.meal-button:hover {
+    background-color: #4cae4c;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meal-image {
+    flex: 1;
+    text-align: center;
+}
+
+.meal-img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-bar {
+    flex: 1;
+    padding: 20px;
+}
+
+.Desc {
+    flex: 2;
+    padding: 20px;
+}
+
+.description {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.ingredients {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ingredients table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ingredients th {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 10px;
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+.ingredients td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.how-to {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.how-to::before {
+    content: "Instructions";
+    display: block;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #d9534f;
+    text-align: center;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-left: 0%;
+}

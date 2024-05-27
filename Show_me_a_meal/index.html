@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show me a Meal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1 class="random-meal">Show me a meal</h1>
+        <button class="meal-button">Let's Go</button>
+    </section>
+
+    <section class="container">
+        <div class="meal-image">
+            <img class="meal-img" src="https://www.emojirequest.com/img-facebook/HungryEmoji.jpg" alt="MealImg">
+        </div>
+        
+        <div class="right-bar">
+        </div>
+        <div class="Desc">
+            <p class="description"></p>
+        </div>  
+    </section>
+
+    <div class="ingredients">
+        <table>
+            <tr>
+                <th>Ingredients</th>
+            </tr>
+            <tr>
+                <td class="ingredients-list">
+                    <ul id="ingredients-list"></ul>
+                </td>
+            </tr>
+        </table>
+        <button id="clear-selection">Clear Selection</button>
+        <button id="save-ingredients">Save Ingredients</button>
+        <button id="save-all">Save Ingredients and Instructions</button>
+    </div>
+    
+    <div>
+        <section class="how-to">
+        </section>
+    </div>
+    
+    <script src="app.js" charset="UTF-8"></script>
+</body>
+
+</html>
